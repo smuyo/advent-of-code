@@ -38,4 +38,4 @@ with open(sys.argv[1], "r") as in_file:
 steps_nums = []
 for start_loc in start_eles:
     steps_nums.append(find_steps(start_loc, dirs))
-print(math.lcm(*steps_nums))
+print(math.lcm(*adsteps_nums))
